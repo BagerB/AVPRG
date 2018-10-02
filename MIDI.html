@@ -61,10 +61,18 @@
     9956.06347910659,   10548.081821211836, 11175.303405856126,
     11839.8215267723,   12543.853951415975];
 
-    document.getElementById("myButton").addEventListener("click", function() {
-        var inputNumber = document.getElementById("myInput").value;
-        document.getElementById("outputText").innerHTML = "Lösung: " + allFrequencies[inputValue];
+
+    function calculateFrequency() {
+        var inputValue = document.getElementById("myInput").value;
+        if(inputValue <= 127 && inputValue >= 0 && inputValue !== "") {
+            document.getElementById("outputText").innerHTML = "Lösung " + allFrequencies[inputValue];
+        } else {
+            document.getElementById("outputText").innerHTML = "Bitte nochmal eine Zahl eingeben";
+        }
     }
+    document.getElementById("myButton").addEventListener("click", function() {
+        calculateFrequency();
+    });
 
     </script>
 </body>
