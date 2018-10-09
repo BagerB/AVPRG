@@ -1,0 +1,32 @@
+html, body {
+    height: 100%;
+    padding: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+div { 
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+#div1 {
+    background: aqua;
+}
+
+#div2 {
+    background: brown;
+}
+
+#div3 {
+    background: chartreuse;
+}
+
+#div4 {
+    background: chocolate;
+}
+
+#div1:active, #div2:active, #div3:active, #div4:active {
+    background: white;
+}
