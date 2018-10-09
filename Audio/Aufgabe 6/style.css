@@ -1,0 +1,38 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    background-color: aquamarine;
+    color: chocolate;
+    text-align: center;
+}
+
+div {
+    font-size: 1.5em;
+}
+
+#gainContainer {
+    background-color: darkgreen;
+    width: 100%;
+}
+
+#panningContainer {
+    background-color: darkslategrey;
+    width: 100%;
+}
+
+#delayContainer {
+    background-color: violet;
+    width: 100%;
+}
+
+#playStopButton {
+    background-color: orange;
+    border: none;
+    color: blue;
+    font-size: 2em;
+    padding: 0.5em 1.5em;
+}
+
+#playStopButton:active {
+    background-color: white;
+}

@@ -1,0 +1,35 @@
+<html>
+    
+        <head>
+            <title>Drum-Machine</title>
+            <link rel="stylesheet" type="text/css" href="style.css">
+        </head>
+
+        <body>
+            <div id="mainContainer">
+                <button id="playStopButton">Play</button>
+
+                <div id="gainContainer">Gain
+                    <input type="range" min="0" max="100" value="10" class="slider" id="gainSlider">
+                    <span id="gainOutput">1.0 dB</span>
+                </div>
+
+                <div id="panningContainer">Panning
+                    <input type="range" min="0" max="100" value="50" class="slider" id="panningSlider">
+                    <span id="panningOutput">0 LR</span>
+                </div>
+
+                <div id="delayContainer">Delay
+                    <input type="range" min="0" max="100" value="0" class="slider" id="delaySlider">
+                    <span id="delayOutput">0 sec</span>
+                </div>
+
+                <script src="effects.js"></script>
+
+            </div>
+        </body>
+    
+
+
+
+</html>
