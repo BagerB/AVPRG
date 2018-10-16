@@ -1,0 +1,25 @@
+html, body {
+    background-color: brown;
+    height: 100%;
+    color: darkgoldenrod;
+    text-align: center;
+}
+
+#myPlayStopButton {
+    border: none;
+    margin-left: 0.6em;
+    margin-bottom: 0.5em;
+    background-color: chocolate;
+    color: antiquewhite;
+    font-size: 0.8em;
+    padding: 0.5em 1.5em;
+    font-size: 2em;
+}
+
+#playStopButton:active {
+    background-color: aliceblue;
+}
+
+#selectList {
+    font-size: 2em;
+}
