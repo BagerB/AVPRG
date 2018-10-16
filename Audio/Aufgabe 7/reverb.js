@@ -13,7 +13,7 @@ var context = new AudioContext(),
 
     function loadImpulseResponse (name) {
         var request = new XMLHttpRequest();
-        request.open("GET",  "path/to/your/impulseResponse.wav", true);
+        request.open("GET",  "impulseResponses/" + name + ".wav", true);
         request.responseType = "arraybuffer";
 
 request.onload = function () {
